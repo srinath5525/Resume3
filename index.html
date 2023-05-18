@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Info</title>
+    <style>
+      h1 {
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+      }
+      h4 {
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        border-radius: 50px;
+      }
+      .cls {
+        font-family: "Cambria, Cochin, Georgia, Times, Times New Roman, serif";
+        font-size: 20pt;
+      }
+
+      header {
+        background-color: grey;
+      }
+      input[type="text"] {
+        background-color: rgba(255, 255, 255, 0.816);
+        width: 100%;
+        color: rgb(5, 5, 5);
+        padding: 14px 20px;
+        margin: 8px 0px;
+        cursor: pointer;
+      }
+      input[type="email"] {
+        background-color: rgba(255, 255, 255, 0.816);
+        width: 100%;
+        color: rgb(5, 5, 5);
+        padding: 14px 20px;
+        margin: 8px 0px;
+        cursor: pointer;
+      }
+      textarea {
+        background-color: white;
+        width: 100%;
+        color: rgb(9, 1, 1);
+        padding: 14px 20px;
+        margin: 8px 0px;
+        cursor: pointer;
+      }
+      div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      button {
+        display: block;
+        width: 100%;
+        border: none;
+        background-color: darkolivegreen;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="logo.jpg"
+        alt="karpagam institute of tecknology"
+        class="center"
+      />
+
+      <h1>Karpagam Institute of Technology</h1>
+      <h4>Inspisring Innovation</h4>
+    </header>
+    <div class="cls">
+      <form>
+        <label for="fname">Firstname:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+
+        <label for="lname">Lastname:</label><br />
+        <input type="text" id="lname" name="lname" /><br />
+
+        <label for="cahr">Character:</label><br />
+        <input type="radio" id="char" name="char" />
+        <label for="char">Good</label>
+        <input type="radio" id="char" name="char" />
+        <label for="char">Bad</label><br />
+
+        <label for="hobbi">Hobbies:</label><br />
+        <textarea name="hobbi" id="hobbi" cols="30" rows="1"></textarea>
+
+        <label for="ambi">Ambitions:</label><br />
+        <input type="text" id="ambi" name="ambi" /><br />
+
+        <label for="add">Residental address:</label><br />
+        <textarea name="add" id="add" cols="30" rows="1"></textarea><br />
+
+        <label for="e">Email:</label>
+        <input type="email" id="e" name="e" />
+
+        <button type="button" class="button">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
